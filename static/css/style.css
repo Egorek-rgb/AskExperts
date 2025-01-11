@@ -625,5 +625,126 @@ button.second-button img{
   margin-top: 25px;
   margin-bottom: 10px;
 }
-.control-element-description {
+.steps-and-experience {
+  margin-top: 150px;
+}
+.container {
+}
+.steps-and-experience__wrapper {
+  color: #1b1b1b;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.steps {
+  width: 572px;
+}
+.process {
+  background-color: #4EAF4E;
+  width: 110px;
+  padding: 0 15px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 16px;
+}
+.steps__title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.steps-description {
+  margin-top: 16px;
+  line-height: 147%;
+}
+.steps_list {
+}
+.steps_list-item {
+  display:flex;
+
+  margin-top: 28px;
+}
+.years {
+  width: 562px;
+}
+.growing {
+  background-color: #FFCC4A;
+  width: 264px;
+  text-transform: uppercase;
+  padding: 0 17px;
+  border-radius: 20px;
+}
+.years__title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 8px 0;
+}
+.years__description1 {
+  line-height: 147%;
+  margin-bottom: 32px;
+}
+.years__description2 {
+  line-height: 147%;
+}
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:15px;
+}
+.advantages-item {
+  background-color: #ece9e9;
+  padding: 33px 23px;
+  border-radius: 20px;
+}
+
+.steps_list-item-img {
+  background-color: #FFCC4A;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.steps_list-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.steps_list-item-description {
+  width: 331px;
+}
+.title-with-description{
+  padding-left: 16px;
+}
+
+.steps_list-line{
+  background-color: #C1C1C1;
+  width: 459px;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.yellow{
+  background-color: #FFCC4A;
+}
+
+.green{
+  background-color: #4EAF4E;
+  color: white;
+}
+
+.dark{
+  background-color: #181818;
+  color: white;
+}
+
+.advantages-item__img {
+  margin-bottom: 22px;
+}
+.advantages-item__title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.advantages-item__description {
 }
