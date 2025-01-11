@@ -366,3 +366,77 @@ body {
 .second-header__list-item.active {
   color: green; /* Укажите нужный цвет */
 }
+
+
+.bg-container{
+    background-image: url(../img/maun-bg.png);
+    height: 783px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-for-text{
+    height: 395px;
+    width: 551px;
+    background-color: rgba(255, 255, 255, 0.881);
+    border-radius: 29px;
+}
+
+.bg-container{
+    padding-top: 194px;
+    padding-left: 10px;
+}
+
+
+.bg-for-text-description{
+    padding: 55px 58px;
+    color:black
+}
+.bg-for-text-title {
+    font-size: 50px;
+    font-family: "Cabin", serif;
+    font-weight: bold;
+    line-height: 116%;
+    margin-bottom: 19px;
+}
+.bg-for-text-subdescription {
+    line-height: 147%;
+}
+
+.buttons{
+    color: black;
+    margin-left: 58px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.first-button{
+    background-color: #181818;
+    color: white;
+    padding: 16px 33px;
+    border-radius: 42px;
+    border: solid #181818 1px;
+    transition: 0.5s ease;
+}
+
+.first-button:hover{
+    background-color: white;
+    color: #181818;
+}
+
+button.second-button img{
+    vertical-align: middle;
+}
+
+.second-button{
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 42px;
+    margin-left: 13px;
+    transition: 0.5s ease;
+}
+
+.second-button:hover{
+    color:white;
+    background-color: #181818;
+}
