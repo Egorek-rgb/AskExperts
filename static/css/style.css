@@ -440,3 +440,127 @@ button.second-button img{
     color:white;
     background-color: #181818;
 }
+
+.cliemt-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 132px;
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+
+.client {
+}
+.container {
+}
+.cliemt-wrapper {
+}
+.about-us {
+    color: black;
+    margin-top: 127px;
+}
+.about-us-wrapper {
+    width: 420px;
+}
+.about-us-head {
+    background-color: #FFCC4A;
+    padding: 0 12px;
+    width: 104px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.about-us-title {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 116%;
+    margin-top: 22px;
+    margin-bottom: 18px;
+
+}
+.about-us-description {
+    font-size: 18px;
+    line-height: 147%;
+    margin-bottom: 11px;
+}
+.about-us-subdescription {
+    margin-bottom: 55px;
+}
+.services-and-customers {
+}
+.services-and-customers-wrapper {
+    display: flex;
+}
+.services {
+    background-color: #F6F6F6;
+    text-align: center;
+    margin-right: 20px;
+    padding: 16px 23px;
+    border-radius: 15px;
+    
+}
+.services-title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers {
+    text-align: center;
+    background-color: #F6F6F6;
+    padding: 16px 23px;
+    border-radius: 15px;
+}
+.customers-title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticle-line{
+    height: 90px;
+    width: 1px;
+    background-color: #D8D8D8;
+    margin-right: 20px;
+}
+
+.horizontal-line1{
+    width: 380px;
+    background-color: #D8D8D8;
+    height: 1px;
+    margin-bottom: 17px;
+}
+
+.horizontal-line2{
+    width: 380px;
+    background-color: #D8D8D8;
+    height: 1px;
+    margin-top: 17px;
+}
+
+.about-us-with-img{
+    display: flex;
+    position: relative;
+}
+
+.first-image {
+    position: absolute;
+    z-index: 1;
+    left: 485px;
+    top: 136px;
+}
+.second-image {
+    position: absolute;
+    z-index: 3;
+    left: 526px;
+    top: 281px;
+}
+.third-iamge {
+    position: absolute;
+    z-index: 2;
+    left: 586px;
+}
