@@ -748,3 +748,116 @@ button.second-button img{
 }
 .advantages-item__description {
 }
+
+.bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.549)),
+  url(../img/Background.png);
+  height: 645px;
+  margin-top: 152px;
+  padding-top: 202px;
+}
+.market {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end
+}
+.process-and-title {
+}
+.process {
+}
+.process__title {
+  font-size: 45px;
+  font-weight: bold;
+  width: 731px;
+}
+.more-gallery {
+  padding: 16px 32px;
+  background-color: #FFCC4A;
+  border-radius: 42px;
+  color: black;
+  font-weight: bold;
+}
+
+.statistics {
+
+}
+.statistics__wrapper {
+  background-color: #FAFAFA;
+  height: 763px;
+  margin-top: 45px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.statistics {
+  color: #181818;
+  margin-top:54px;
+}
+.container {
+}
+.statistics-sub-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+}
+.statistics-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-family: "Cabin", serif;
+}
+.statistics-description {
+  font-size: 18px;
+}
+
+.statisctics-item{
+  background-image: url(../img/statisctics2.png);
+  width: 366px;
+  height: 344px;
+  transition: filter 1s;  
+}
+
+ 
+
+.statisctics-item:hover .statistics-overlay{
+  opacity: 1;
+
+}
+
+
+
+.statistics-overlay{
+  position: relative;
+  opacity: 0;
+}
+
+.img-overlay{
+  position: absolute;
+  left: 281px;
+  top: 23px;
+  z-index: 2;
+}
+
+.statistics-overlay-title {
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+.statistics-overlay-description {
+}
+
+.title-and-description{
+  position: absolute;
+  top:263px;
+  left: 25px;
+}
