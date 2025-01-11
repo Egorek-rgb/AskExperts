@@ -564,3 +564,66 @@ button.second-button img{
     z-index: 2;
     left: 586px;
 }
+
+.control {
+  padding-top: 170px;
+  margin-top: 174px;
+  background-color: #F5F5F5;
+  position: relative;
+}
+.container {
+}
+.control-wrapper {
+  color: black;
+  display: flex; /* Включаем флексбокс */
+  flex-direction: column; /* Располагаем элементы вертикально */
+  align-items: center; /* Центрируем элементы по горизонтали */
+}
+.control-services {
+  background-color: #4EAF4E;
+  width: 120px;
+  text-align: center;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+.control-title {
+  text-align: center;
+  width: 781px;
+  font-family: "Cabin", serif;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 8px;
+  margin-bottom: 38px;
+}
+.control-elements {
+  display: grid;
+  font-family: "Cabin", serif;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.control-element {
+  width: 387px;
+  
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  padding: 48px 48px;
+}
+
+.control-element:hover {
+  width: 387px;
+  background-color: #181818;
+  color: white;
+  border-radius: 20px;
+  padding: 48px 48px;
+}
+.control-img {
+}
+.control-element-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.control-element-description {
+}
