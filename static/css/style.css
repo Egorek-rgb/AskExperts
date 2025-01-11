@@ -1,0 +1,368 @@
+/*
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.cabin-<uniquifier> {
+  font-family: "Cabin", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.tenor-sans-regular {
+  font-family: "Tenor Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+*/
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: "Lato", serif;
+  color: white;
+}
+
+.header {
+}
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-wrapper {
+}
+
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  font-size: 14px;
+}
+
+.first-header-wrapper {
+  background-color: #181818;
+}
+.day-of-the-week {
+}
+.day-of-the-week-img {
+  margin-right: 10px;
+}
+.day-of-the-week__item {
+}
+.address {
+}
+.address__img {
+  margin-right: 10px;
+}
+.address__item {
+}
+.socials {
+  display: flex;
+  gap: 25px;
+}
+.socials-item {
+}
+.second-header {
+}
+.second-header-wrapper {
+  background-color: #1b1b1b;
+}
+.container {
+}
+.second-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  align-items: center;
+  font-size: 18px;
+}
+.logo-wrapper {
+}
+.logo {
+}
+.logo-text {
+  margin-left: 11px;
+  font-family: "Cabin", serif;
+  font-size: 30px;
+}
+.second-header__list {
+  display: flex;
+}
+
+.dott:hover{
+    cursor: pointer;
+}
+.dott {
+  height: 9px;
+  margin-top: 6px;
+  margin-right: 8px;
+}
+.second-header__list-wrapper:hover .second-header__list-item {
+  cursor: pointer;
+}
+
+
+
+.second-header__list-wrapper:hover{
+    border: yellow solid 1px;
+    color: yellow;
+}
+
+.second-header__list-wrapper {
+}
+
+.second-header__list-item:not(:last-child) {
+}
+.second-header__number {
+  background-color: white;
+}
+.number-img {
+  margin-right: 11px;
+}
+
+.second-header__number {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 8px 0;
+  padding-left: 10px;
+  padding-right: 41px;
+  border-radius: 42px;
+  font-weight: 500;
+}
+
+/* Исходный стиль текста */
+.second-header__list-item {
+  margin-right: 30px;
+}
+/* Стиль текста после изменения */
+.second-header__list-item.active {
+  color: green; /* Укажите нужный цвет */
+}
