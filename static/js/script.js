@@ -22,3 +22,12 @@ wrappers.forEach((wrapper) => {
       }, 500); 
   });
 });
+
+
+const swiper = new Swiper('.feedback-container', {
+  navigation: {
+    nextEl: " .left-arrow",
+    prevEl: ".right-arrow",
+  }
+  
+});
