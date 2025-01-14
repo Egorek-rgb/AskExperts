@@ -880,7 +880,8 @@ button.second-button img {
   font-size: 20px;
   font-weight: 600;
   margin-top: 27px;
-margin-bottom: 7px;}
+  margin-bottom: 7px;
+}
 .job {
   color: #4eaf4e;
 }
@@ -891,7 +892,7 @@ margin-bottom: 7px;}
   width: 654px;
 }
 
-.swiper{
+.swiper {
   position: relative;
 }
 
@@ -902,7 +903,7 @@ margin-bottom: 7px;}
   color: #181818;
 }
 
-.swiper.feedback-container{
+.swiper.feedback-container {
 }
 
 .left-arrow {
@@ -910,9 +911,9 @@ margin-bottom: 7px;}
   align-items: center;
   top: 300px; /* Центр по вертикали */
   left: 10px; /* Расстояние от левого края */
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
-.right-arrow{
+.right-arrow {
   display: flex;
   align-items: center;
   top: 300px; /* Центр по вертикали */
@@ -920,15 +921,16 @@ margin-bottom: 7px;}
   transform: translateY(-50%);
 }
 
-.left-arrow,.right-arrow  {
+.left-arrow,
+.right-arrow {
   width: 43px; /* Установите фиксированную ширину */
   height: 43px; /* Установите фиксированную высоту */
   object-fit: contain; /* Убедитесь, что изображение сохраняет пропорции */
   position: absolute;
-  z-index: 10;  
+  z-index: 10;
 }
 
-.swiper-button-disabled{
+.swiper-button-disabled {
   filter: brightness(70%);
 }
 
@@ -968,7 +970,6 @@ margin-bottom: 7px;}
   display: flex;
   align-items: center;
   color: #181818;
-
 }
 .phone-img {
 }
@@ -982,7 +983,7 @@ margin-bottom: 7px;}
 .articles {
   margin-top: 185px;
   padding-top: 178px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .container {
 }
@@ -1003,7 +1004,7 @@ margin-bottom: 7px;}
 }
 .blog-title {
   color: #181818;
-  font-size:45px;
+  font-size: 45px;
   font-weight: bold;
   width: 507px;
 }
@@ -1017,11 +1018,10 @@ margin-bottom: 7px;}
   color: #181818;
   font-size: 18px;
   font-weight: 600;
-
 }
 
-.agile{
-  background-color: #F5F5F5;
+.agile {
+  background-color: #f5f5f5;
   padding-bottom: 178px;
 }
 
@@ -1060,8 +1060,8 @@ margin-bottom: 7px;}
   font-weight: 500;
 }
 
-.horizontal-line-1{
-  width:582px;
+.horizontal-line-1 {
+  width: 582px;
   height: 1px;
   background-color: #c1c1c1;
   margin-bottom: 14px;
@@ -1070,14 +1070,140 @@ margin-bottom: 7px;}
 .second-block {
 }
 
-.horizontal-line-2{
-  width:582px;
+.horizontal-line-2 {
+  width: 582px;
   height: 1px;
   background-color: #c1c1c1;
   margin-top: 14px;
 }
 
-.agile-wrapper{
+.agile-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.contact-us {
+  color: #181818;
+  margin-top: 135px;
+}
+.contact-us-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+}
+.contact-us-left-block {
+}
+.proccess {
+  background-color: #ffcc4a;
+  padding: 1px 15px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+.contact-us-left-block-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.contact-us-left-block-description {
+  width: 407px;
+  margin-bottom: 38px;
+}
+.call {
+  display: flex;
+  margin-bottom: 56px;
+  align-items: center;
+}
+.call-img {
+  margin-right: 16px;
+}
+.call-information {
+}
+.call-title {
+}
+.call-number {
+}
+.working-time {
+  align-items: center;
+  display: flex;
+  margin-bottom: 56px;
+}
+.working-time-img {
+  margin-right: 16px;
+}
+.working-time-information {
+}
+.working-time-title {
+}
+.working-time-hours {
+}
+.office {
+  display: flex;
+  align-items: center;
+}
+.office-img {
+  margin-right: 16px;
+}
+.office-information {
+}
+.office-title {
+}
+.office-address {
+}
+.contact-us-right-block {
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.name-form {
+  font-size: 16px;
+}
+input {
+  width: 318px;
+  height: 68px;
+  border-radius: 54px;
+  padding: 20px;
+  border: solid 1px #c1c1c1;
+}
+
+input:hover {
+  background-color: #c1c1c1;
+}
+
+.email {
+  font-size: 16px;
+}
+.phone {
+  font-size: 16px;
+}
+.company {
+  font-size: 16px;
+}
+.message {
+  font-size: 16px;
+  grid-column: 1 / span 2;
+  width: 100%;
+  border-radius: 30px;
+  height: 189px;
+  padding: 10px 10px;
+  border: solid 1px #c1c1c1;
+}
+
+.message:hover {
+  background-color: #c1c1c1;
+}
+.send-message-btn {
+  display: inline-block;
+  margin-top: 38px;
+  background-color: #181818;
+  border-radius: 42px;
+  color: white;
+  padding: 16px 27px;
+}
+
+.send-message-btn:hover{
+  background-color: white;
+  color: #181818;
+  border: 1px solid #181818
 }
