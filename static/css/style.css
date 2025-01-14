@@ -1085,6 +1085,7 @@ button.second-button img {
 .contact-us {
   color: #181818;
   margin-top: 135px;
+  margin-bottom: 99px;
 }
 .contact-us-wrapper {
   display: flex;
@@ -1206,4 +1207,107 @@ input:hover {
   background-color: white;
   color: #181818;
   border: 1px solid #181818
+}
+
+.footer{
+  background: url(../img/BackgroundFooter.png);
+  padding-top: 126px ;
+  padding-bottom: 56px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+}
+.logo-title {
+}
+.logo-text {
+}
+.logo-subtitle {
+}
+.vertical-line {
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 99px
+}
+.product {
+}
+.product-title {
+}
+.product-line {
+  width: 32px;
+  height: 3px;
+  background-color: #ffcc4a;
+  border-radius: 20px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.product-list {
+}
+.product-list-item {
+}
+.company {
+}
+.company-title {
+}
+.company-line {
+  width: 32px;
+  height: 3px;
+  background-color: #ffcc4a;
+  border-radius: 20px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.company-list {
+}
+.company-list-item {
+}
+.info-container-address {
+  width: 232px;
+}
+.address-title {
+}
+.address-title-line {
+  width: 32px;
+  height: 3px;
+  background-color: #ffcc4a;
+  border-radius: 20px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.street {
+}
+.address-btn {
+  background-color: white;
+  color: #181818;
+  padding: 15px 23px;
+  display: inline-block;
+  border-radius: 42px;
+  margin-top: 16px;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+li{
+  position: relative;
+  padding-left: 15px; /* Отступ для текста */
+}
+
+.logo-vertical-line{
+  height: 236px;
+  width: 1px;
+  background-color: #c1c1c1;
 }
